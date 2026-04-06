@@ -1,0 +1,71 @@
+C = [10 10 10];
+
+H = [10 10 7.5];
+
+H2 = [10 10 12.5];
+
+H3 = [7.5 10 10];
+
+H4 = [12.5 10 10];
+
+H5 = [10 7.5 10];
+
+H6 = [10 12.5 10];
+
+
+figure;
+
+% carbon
+plot3(C(1), C(2), C(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+
+hold on
+
+% hydrogen
+
+plot3(H(1), H(2), H(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b')
+
+plot3(H2(1), H2(2), H2(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b')
+
+plot3(H3(1), H3(2), H3(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b')
+
+plot3(H4(1), H4(2), H4(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b')
+
+plot3(H5(1), H5(2), H5(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b')
+
+plot3(H6(1), H6(2), H6(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b')
+
+% connecting
+
+plot3([C(1) , H(1)] , [C(2) , H(2)], [C(3) , H(3)], 'k-', 'LineWidth', 2, 'Color', 'black')
+
+plot3([C(1) , H2(1)] , [C(2) , H2(2)], [C(3) , H2(3)], 'k-', 'LineWidth', 2, 'Color', 'black')
+
+plot3([C(1) , H3(1)] , [C(2) , H3(2)], [C(3) , H3(3)], 'k-', 'LineWidth', 2, 'Color', 'black')
+
+plot3([C(1) , H4(1)] , [C(2) , H4(2)], [C(3) , H4(3)], 'k-', 'LineWidth', 2, 'Color', 'black')
+
+plot3([C(1) , H5(1)] , [C(2) , H5(2)], [C(3) , H5(3)], 'k-', 'LineWidth', 2, 'Color', 'black')
+
+plot3([C(1) , H6(1)] , [C(2) , H6(2)], [C(3) , H6(3)], 'k-', 'LineWidth', 2, 'Color', 'black')
+
+
+% Axes and grid
+ax = gca;
+
+ax.Color = 'w';       % axes background white
+
+ax.GridColor = [0 0 0];
+
+xlabel('X');
+
+ylabel('Y');
+
+zlabel('Z');
+
+title('Octahedral visualization') 
+
+grid on;
+
+hold off
+
+
