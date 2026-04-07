@@ -1,0 +1,348 @@
+% Input
+Alkane_Name = "decane";
+
+if contains(Alkane_Name, 'meth', 'IgnoreCase', true)
+    C = 1;
+    H = 4;
+elseif contains(Alkane_Name, 'eth', 'IgnoreCase', true)
+    C = 2;
+    H = 6;
+elseif contains(Alkane_Name, 'prop', 'IgnoreCase', true)
+    C = 3;
+    H = 8;
+elseif contains(Alkane_Name, 'but', 'IgnoreCase', true)
+    C = 4;
+    H = 10;
+elseif contains(Alkane_Name, 'pent', 'IgnoreCase', true)
+    C = 5;
+    H = 12;
+elseif contains(Alkane_Name, 'hex', 'IgnoreCase', true)
+    C = 6;
+    H = 14;
+elseif contains(Alkane_Name, 'hept', 'IgnoreCase', true)
+    C = 7;
+    H = 16;
+elseif contains(Alkane_Name, 'oct', 'IgnoreCase', true)
+    C = 8;
+    H = 18;
+elseif contains(Alkane_Name, 'non', 'IgnoreCase', true)
+    C = 9;
+    H = 20;
+elseif contains(Alkane_Name, 'dec', 'IgnoreCase', true)
+    C = 10;
+    H = 22;
+end
+
+
+C1 = [10 10 10];
+C2 = [15 10 10];
+C3 = [20 10 10];
+C4 = [25 10 10];
+C5 = [30 10 10];
+C6 = [35 10 10];
+C7 = [40 10 10];
+C8 = [45 10 10];
+C9 = [50 10 10];
+C10= [55 10 10];
+    
+if C == 1
+   figure;
+grid on;
+plot3(C1(1), C1(2), C1(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+elseif C == 2
+   figure;
+grid on;
+plot3(C1(1), C1(2), C1(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+hold on
+plot3(C2(1), C2(2), C2(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+hold off
+elseif C == 3
+   figure;
+grid on;
+plot3(C1(1), C1(2), C1(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+hold on
+plot3(C2(1), C2(2), C2(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C3(1), C3(2), C3(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+hold off
+elseif C == 4
+   figure;
+grid on;
+plot3(C1(1), C1(2), C1(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+hold on
+plot3(C2(1), C2(2), C2(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C3(1), C3(2), C3(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C4(1), C4(2), C4(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+hold off
+elseif C == 5
+   figure;
+grid on;
+plot3(C1(1), C1(2), C1(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+hold on
+plot3(C2(1), C2(2), C2(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C3(1), C3(2), C3(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C4(1), C4(2), C4(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C5(1), C5(2), C5(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+hold off
+elseif C == 6
+   figure;
+grid on;
+plot3(C1(1), C1(2), C1(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+hold on
+plot3(C2(1), C2(2), C2(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C3(1), C3(2), C3(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C4(1), C4(2), C4(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C5(1), C5(2), C5(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C6(1), C6(2), C6(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+hold off
+elseif C == 7
+   figure;
+grid on;
+plot3(C1(1), C1(2), C1(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+hold on
+plot3(C2(1), C2(2), C2(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C3(1), C3(2), C3(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C4(1), C4(2), C4(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C5(1), C5(2), C5(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C6(1), C6(2), C6(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C7(1), C7(2), C7(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+hold off
+elseif C == 8
+   figure;
+grid on;
+plot3(C1(1), C1(2), C1(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+hold on
+plot3(C2(1), C2(2), C2(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C3(1), C3(2), C3(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C4(1), C4(2), C4(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C5(1), C5(2), C5(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C6(1), C6(2), C6(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C7(1), C7(2), C7(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C8(1), C8(2), C8(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+hold off
+elseif C == 9
+    figure;
+grid on;
+plot3(C1(1), C1(2), C1(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+hold on
+plot3(C2(1), C2(2), C2(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C3(1), C3(2), C3(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C4(1), C4(2), C4(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C5(1), C5(2), C5(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C6(1), C6(2), C6(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C7(1), C7(2), C7(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C8(1), C8(2), C8(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C9(1), C9(2), C9(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+hold off
+elseif C == 10
+   figure;
+grid on;
+plot3(C1(1), C1(2), C1(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+hold on
+plot3(C2(1), C2(2), C2(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C3(1), C3(2), C3(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C4(1), C4(2), C4(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C5(1), C5(2), C5(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C6(1), C6(2), C6(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C7(1), C7(2), C7(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C8(1), C8(2), C8(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C9(1), C9(2), C9(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+plot3(C10(1), C10(2), C10(3), 'o', 'MarkerSize', 20, 'MarkerFaceColor', 'r')
+hold off
+end
+
+H11 = C1 + [0 0 -1];
+H21 = C1 + [0 0 1];
+H31 = C1 + [-1 0 0];
+H41 = C2 + [-4 0 0];
+H12 = C2 + [0 0 -1];
+H22 = C2 + [0 0 1];
+H32 = C3 + [-4 0 0];
+H13 = C3 + [0 0 -1];
+H23 = C3 + [0 0 1];
+H33 = C4 + [-4 0 0];
+H14 = C4 + [0 0 -1];
+H24 = C4 + [0 0 1];
+H34 = C5 + [-4 0 0];
+H15 = C5 + [0 0 -1];
+H25 = C5 + [0 0 1];
+H35 = C6 + [-4 0 0];
+H16 = C6 + [0 0 -1];
+H26 = C6 + [0 0 1];
+H36 = C7 + [-4 0 0];
+H17 = C7 + [0 0 -1];
+H27 = C7 + [0 0 1];
+H37 = C8 + [-4 0 0];
+H18 = C8 + [0 0 -1];
+H28 = C8 + [0 0 1];
+H38 = C9 + [-4 0 0];
+H19 = C9 + [0 0 -1];
+H29 = C9 + [0 0 1];
+H39 = C10 + [-4 0 0];
+H110 = C10 + [0 0 -1];
+H210 = C10 + [0 0 1];
+H310 = C10 + [1 0 0];
+
+if C == 1
+    hold on
+    plot3(H11(1),H11(2),H11(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H21(1),H21(2),H21(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H31(1),H31(2),H31(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H41(1),H41(2),H41(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    hold off
+elseif C == 2
+    hold on
+    plot3(H11(1),H11(2),H11(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H21(1),H21(2),H21(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H31(1),H31(2),H31(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H12(1),H12(2),H12(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H22(1),H22(2),H22(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H32(1),H32(2),H32(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    hold off
+elseif C == 3
+    hold on
+    plot3(H11(1),H11(2),H11(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H21(1),H21(2),H21(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H31(1),H31(2),H31(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H12(1),H12(2),H12(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H22(1),H22(2),H22(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H13(1),H13(2),H13(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H23(1),H23(2),H23(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H33(1),H33(2),H33(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    hold off
+elseif C == 4
+    hold on
+    plot3(H11(1),H11(2),H11(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H21(1),H21(2),H21(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H31(1),H31(2),H31(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H12(1),H12(2),H12(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H22(1),H22(2),H22(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H13(1),H13(2),H13(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H23(1),H23(2),H23(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H14(1),H14(2),H14(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H24(1),H24(2),H24(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H34(1),H34(2),H34(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    hold off
+elseif C == 5
+    hold on
+    plot3(H11(1),H11(2),H11(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H21(1),H21(2),H21(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H31(1),H31(2),H31(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H12(1),H12(2),H12(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H22(1),H22(2),H22(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H13(1),H13(2),H13(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H23(1),H23(2),H23(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H14(1),H14(2),H14(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H24(1),H24(2),H24(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H15(1),H15(2),H15(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H25(1),H25(2),H25(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H35(1),H35(2),H35(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    hold off
+elseif C == 6
+    hold on
+    plot3(H11(1),H11(2),H11(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H21(1),H21(2),H21(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H31(1),H31(2),H31(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H12(1),H12(2),H12(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H22(1),H22(2),H22(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H13(1),H13(2),H13(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H23(1),H23(2),H23(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H14(1),H14(2),H14(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H24(1),H24(2),H24(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H15(1),H15(2),H15(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H25(1),H25(2),H25(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H16(1),H16(2),H16(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H26(1),H26(2),H26(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H36(1),H36(2),H36(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    hold off
+elseif C == 7
+    hold on
+    plot3(H11(1),H11(2),H11(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H21(1),H21(2),H21(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H31(1),H31(2),H31(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H12(1),H12(2),H12(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H22(1),H22(2),H22(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H13(1),H13(2),H13(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H23(1),H23(2),H23(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H14(1),H14(2),H14(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H24(1),H24(2),H24(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H15(1),H15(2),H15(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H25(1),H25(2),H25(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H16(1),H16(2),H16(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H26(1),H26(2),H26(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H17(1),H17(2),H17(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H27(1),H27(2),H27(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H37(1),H37(2),H37(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    hold off
+elseif C == 8
+    hold on
+    plot3(H11(1),H11(2),H11(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H21(1),H21(2),H21(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H31(1),H31(2),H31(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H12(1),H12(2),H12(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H22(1),H22(2),H22(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H13(1),H13(2),H13(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H23(1),H23(2),H23(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H14(1),H14(2),H14(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H24(1),H24(2),H24(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H15(1),H15(2),H15(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H25(1),H25(2),H25(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H16(1),H16(2),H16(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H26(1),H26(2),H26(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H17(1),H17(2),H17(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H27(1),H27(2),H27(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H18(1),H18(2),H18(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H28(1),H28(2),H28(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H38(1),H38(2),H38(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    hold off
+elseif C == 9
+    hold on
+    plot3(H11(1),H11(2),H11(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H21(1),H21(2),H21(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H31(1),H31(2),H31(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H12(1),H12(2),H12(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H22(1),H22(2),H22(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H13(1),H13(2),H13(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H23(1),H23(2),H23(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H14(1),H14(2),H14(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H24(1),H24(2),H24(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H15(1),H15(2),H15(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H25(1),H25(2),H25(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H16(1),H16(2),H16(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H26(1),H26(2),H26(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H17(1),H17(2),H17(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H27(1),H27(2),H27(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H18(1),H18(2),H18(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H28(1),H28(2),H28(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H19(1),H19(2),H19(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H29(1),H29(2),H29(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H39(1),H39(2),H39(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    hold off
+elseif C == 10
+    hold on
+    plot3(H11(1),H11(2),H11(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H21(1),H21(2),H21(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H31(1),H31(2),H31(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H12(1),H12(2),H12(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H22(1),H22(2),H22(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H13(1),H13(2),H13(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H23(1),H23(2),H23(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H14(1),H14(2),H14(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H24(1),H24(2),H24(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H15(1),H15(2),H15(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H25(1),H25(2),H25(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H16(1),H16(2),H16(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H26(1),H26(2),H26(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H17(1),H17(2),H17(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H27(1),H27(2),H27(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H18(1),H18(2),H18(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H28(1),H28(2),H28(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H19(1),H19(2),H19(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H29(1),H29(2),H29(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H110(1),H110(2),H110(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H210(1),H210(2),H210(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    plot3(H310(1),H310(2),H310(3), 'o', 'MarkerSize', 15, 'MarkerFaceColor', 'b');
+    hold off
+end
+
+
+   
